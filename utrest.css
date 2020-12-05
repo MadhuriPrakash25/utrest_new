@@ -1,0 +1,298 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+.top-imgsec {
+	/*background-image: url(https://utrust.com/public/imgs/business/bg.jpg);*/
+	background-color: #5b47ff;
+	color: white;
+    padding: 4rem;
+}
+.navbar .left-nav {
+	color:white;
+	margin: 0 5rem 0 0;
+}
+.navbar-brand {
+	text-transform: lowercase;
+	font-size: 4rem;
+	color: white;
+}
+.heading {
+	font-size: 6rem;
+	text-align: center;
+	line-height: 8rem;
+}
+.sub-head {
+	font-size: 2.6rem;
+	text-align: center;
+	line-height: 4rem;
+}
+.head-text-div {
+	width: 50%;
+}
+.nav-about {
+	text-transform: uppercase;
+	color: #473db5;
+	margin: 0 5rem 0 0;
+}
+.nav-about:hover {
+	text-decoration: underline;
+	color: #201876;
+}
+.nav>li>a:hover {
+    background-color: #5b47ff;
+}
+.see-why {
+	background-color: #5b47ff;
+	color: white;
+	padding: 10rem 5rem;
+	text-align: center;
+	will-change: transform;
+    transform: translate3d(0px, -844px, 0px);
+    visibility: visible;
+    opacity: 1;
+    margin-top: 45rem;
+}
+.see-why h1 {
+	font-size: 3rem;
+	margin: 1rem 15rem;
+	text-align: center;
+	line-height: 4rem;
+}
+.see-why p {
+	font-size: 1.2rem;
+	margin: 2rem 22rem;
+	align-items: center;
+	line-height: 2rem;
+}
+.see-why .circle {
+	width:32%;
+    text-align: center;
+    opacity: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 50%;
+    background-color: black;
+    color: white;
+    padding: 5rem;
+}
+.see-why .circle h4 {
+	font-size: 3rem;
+	margin-top: 2rem;
+}
+.see-why .circle p {
+	font-size: 1.3rem;
+	font-weight: 300;
+	margin: 2rem 0;
+}
+.see-why .circles-div {
+	display: flex;
+	justify-content: center;
+	margin: 3rem 0;
+}
+.scroll-text {
+	margin: 2rem 0;
+	font-size: 6rem;
+}
+.background {
+	transform: translateZ(0);
+	will-change: opacity;
+	opacity:1;
+}
+svg {
+    position: absolute;
+    width: 100vw;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+.nintendo:not(.propose) {
+    will-change: transform;
+}
+svg .screen {
+    pointer-events: none;
+}
+.screen.orders {
+    opacity: 1;
+}
+#orders_bt, #settlements_bt {
+    pointer-events: none;
+    -webkit-transition: opacity 0.4s cubic-bezier(0.19, 1, 0.22, 1);
+    transition: opacity 0.4s cubic-bezier(0.19, 1, 0.22, 1);
+}
+}
+.stores-wrapper .store svg {
+    width: 24px;
+    height: 28px;
+    margin-right: 14px;
+}
+@media only screen and (max-width: 1023px) {
+    .stores-wrapper .store svg {
+        width: 22px;
+        height: 26px;
+    }
+}
+.navbar .logo .logo-svg .letter {
+    fill: white;
+}
+.navbar .logo .logo-svg .icon {
+    fill: white;
+}
+.logo-svg {
+    width: 114px;
+    height: 27px;
+    margin-top: 1px;
+}
+.logo-svg path {
+    fill: #272d3d;
+}
+#refunded_baloon {
+    pointer-events: none;
+    -webkit-transform: translateY(40px);
+    transform: translateY(40px);
+}
+.business-page .page-header .nintendo:not(.propose) {
+    will-change: transform;
+}
+.t-head th {
+	color: #fff;
+    line-height: 1.67;
+    letter-spacing: .07em;
+    flex: 0.85;
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    padding: 2rem 0;
+}
+.table>tbody>tr>td {
+	padding: 2rem 0;
+	text-align: center;
+}
+.table .t-row1 {
+	background-color: white;
+	border-radius: 1rem;
+	color: blue;
+    font-size: 1.6rem;
+}
+.table .td-b {
+	 font-size: 1.6rem;
+}
+.why-utrest {
+	display: flex;
+	justify-content: space-around;
+	color: white;
+	margin: 8rem 0;
+}
+.why-utrest .ques {
+	font-size: 3rem; 
+}
+.why-utrest .discription {
+	font-size: 1.5rem;
+    line-height: 2rem;
+    margin: 0 10rem 0 0;
+}
+.title{
+	font-size: 3rem;
+	padding: 0.5rem 10rem;
+    line-height: 4rem;
+}
+.subtitle {
+	padding: 2rem 20rem;
+    line-height: 1.8rem;
+}
+.convert {
+	background-color: #ebeff2;
+	padding: 2rem 0 6rem 0;
+}
+.convert .head {
+    text-align: center;
+    font-size: 4rem;
+    padding: 5rem;
+    color: #5252b5;
+}
+.convert .flag {
+	background-color: white;
+	text-align: center;
+	background-color: white;
+    text-align: center;
+    width: 18%;
+    height: 16rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    box-shadow: 0 4px 24px rgba(0,0,0,.1);
+    border-radius: 1rem;
+}
+.convert .mid-flag{
+	height: 20rem;
+	box-shadow: 2px 6px 28px rgba(0,0,0,.2);
+    position: absolute;
+    top: -26px;
+}
+.convert .flag .text {
+	color: #9b9ea4;
+}
+.convert .flag .symbol {
+	color: black;
+}
+.convert .flag img {
+	width: 26%;
+    margin: auto;
+    padding: 0 0 4rem 0;
+}
+.convert .flags-div {
+	display: flex;
+	margin: 8rem 0;
+    justify-content: center;
+    position: relative;
+}
+.convert .right-flag {
+	position: relative;
+	left: 6rem;
+}
+.convert .left-flag {
+	position: relative;
+	right: 6rem;
+}
+.info {
+	margin: 8rem;
+}
+.info .ready {
+	font-size: 4.5rem;
+    color: #a19b9b;
+}
+.info .create {
+    font-size: 4.5rem;
+    color: blue;
+}
+.info .btn-div {
+	margin: 3rem 0;
+}
+.info .btn-div .btn1 {
+    background: blue;
+    padding: 1rem 3rem;
+    font-weight: 200;
+    border-radius: 3rem;
+    font-size: 1.4rem;
+    margin: 0 1rem;
+}
+.info .btn-div .btn2 {
+    background: white;
+    color: blue;
+    padding: 1rem 3rem;
+    font-weight: 200;
+    border-radius: 3rem;
+    font-size: 1.4rem;
+    margin: 0 1rem;
+}
+.circles-div .circle1 {
+	background-color: #2c3050;
+}
+.circles-div .circle2 {
+	background-color: #473db1;
+}
+.circles-div .circle3 {
+	background-color: #6834d8;
+}
+
